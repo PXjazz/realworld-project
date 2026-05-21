@@ -1,7 +1,6 @@
 export function formatDate(date: string): string {
-  return date
-}
-
-export function slugify(text: string): string {
-  return text
+  const d = new Date(date)
+  const months = ['January', 'February', 'March', 'April', 'May', 'June',
+    'July', 'August', 'September', 'October', 'November', 'December']
+  return `${months[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()}`
 }
