@@ -19,7 +19,13 @@
 
 - 修改原因：AI 存在惯性"多做"倾向，看到项目有 Article/Comment/Profile 全套骨架，会自然地想去填充所有内容。需要用户在 Prompt 中明确定义"不做清单"（负向约束），并使用"禁止""一律不""剔除"等强否定词。
 
-[Prompt演化过程]
+# [Prompt演化过程]
 
 - 初始Prompt : 阅读 <https://docs.realworld.show/introduction/> ,实现Profile页面和功能
 - 无需修改，Prompt 清晰明确
+
+# [Prompt演化过程]
+
+初始 Prompt："实现 Settings 页面"
+修改后 Prompt："根据 RealWorld 规范实现 Settings 页面，包含用户信息编辑（头像、用户名、简介、邮箱、密码）和注销功能"
+修改原因：明确需求，确保覆盖所有必要功能
